@@ -4,7 +4,7 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/ProjectZero/app/templates/@layout.latte</file>
-            <file>file:/C:/xampp/htdocs/ProjectZero/www/index.php</file>
+            <file>file:/C:/xampp/htdocs/ProjectZero/app/presenters/HomepagePresenter.php</file>
             <file>file:/C:/xampp/htdocs/ProjectZero/app/templates/Homepage/default.latte</file>
         </group>
     </open-files>
