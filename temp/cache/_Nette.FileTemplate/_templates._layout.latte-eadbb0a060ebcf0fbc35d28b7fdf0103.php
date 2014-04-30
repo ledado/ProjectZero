@@ -1,30 +1,30 @@
-<?php //netteCache[01]000369a:2:{s:4:"time";s:21:"0.41362400 1398866048";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:55:"C:\xampp\htdocs\ProjectZero\app\templates\@layout.latte";i:2;i:1395082557;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2014-03-17";}}}?><?php
+<?php //netteCache[01]000369a:2:{s:4:"time";s:21:"0.64473000 1398877562";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:55:"C:\xampp\htdocs\ProjectZero\app\templates\@layout.latte";i:2;i:1398877400;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2014-03-17";}}}?><?php
 
 // source file: C:\xampp\htdocs\ProjectZero\app\templates\@layout.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'dg0accbzbq')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, '8auto86bf8')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block title
 //
-if (!function_exists($_l->blocks['title'][] = '_lb351419aa37_title')) { function _lb351419aa37_title($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['title'][] = '_lbbcbf1c7428_title')) { function _lbbcbf1c7428_title($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>Nette Application Skeleton<?php
 }}
 
 //
 // block head
 //
-if (!function_exists($_l->blocks['head'][] = '_lbf0c63dd01e_head')) { function _lbf0c63dd01e_head($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['head'][] = '_lb10e7d3fdd0_head')) { function _lb10e7d3fdd0_head($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;
 }}
 
 //
 // block scripts
 //
-if (!function_exists($_l->blocks['scripts'][] = '_lb4fcc48934d_scripts')) { function _lb4fcc48934d_scripts($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['scripts'][] = '_lb066b3aa7ae_scripts')) { function _lb066b3aa7ae_scripts($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>	<script src="<?php echo htmlSpecialChars(Nette\Templating\Helpers::safeUrl($basePath)) ?>/js/jquery.js"></script>
 	<script src="<?php echo htmlSpecialChars(Nette\Templating\Helpers::safeUrl($basePath)) ?>/js/netteForms.js"></script>
 	<script src="<?php echo htmlSpecialChars(Nette\Templating\Helpers::safeUrl($basePath)) ?>/js/main.js"></script>
@@ -77,6 +77,7 @@ ob_start(); call_user_func(reset($_l->blocks['title']), $_l, get_defined_vars())
 <?php $iterations++; } ?>
 
 <?php Nette\Latte\Macros\UIMacros::callBlock($_l, 'content', $template->getParameters()) ?>
+
 
 <?php call_user_func(reset($_l->blocks['scripts']), $_l, get_defined_vars())  ?>
 </body>

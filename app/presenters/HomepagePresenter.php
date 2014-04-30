@@ -4,6 +4,8 @@ namespace App\Presenters;
 
 use Nette,
 	App\Model;
+use Nette\Forms\Form;
+use Nette\Utils\Html;
 
 
 /**
@@ -14,7 +16,16 @@ class HomepagePresenter extends BasePresenter
 
 	public function renderDefault()
 	{
-		$this->template->anyVariable = 'any value';
+		
 	}
-
+        protected function createComponentLoginForm(){
+            $form = new Nette\Application\UI\Form;
+            
+            $form->addText('name', 'Meno: ');
+            $form->addPassword('pass', 'Heslo: ');
+            $form->addSubmit('submit', 'Prihlasenie');
+            
+            
+            return $form;
+        }
 }
